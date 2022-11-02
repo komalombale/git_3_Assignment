@@ -1,6 +1,6 @@
 
 function checkprime(number){
-	
+	let count=0;
     	for(let i=1;i<=n;i++){
         	if(number%i==0){
             count++;
@@ -13,3 +13,8 @@ function checkprime(number){
     	}
 
 
+let answer=checkprime(11);
+if(answer==true){
+console.log("Prime Number")
+}else{
+console.log("Not A Prime Number")
